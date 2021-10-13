@@ -1,0 +1,63 @@
+.registration {
+	@include modal-box;
+
+	.modal-header {
+		@include modal-header()
+	}
+
+	.modal-body {
+		@include modal-body();
+
+		div#gravatar-checkbox {
+			display: none;
+		}
+	}
+
+	.modal-footer {
+		border: none;
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		margin-top: 0px;
+
+		label.conditions a {
+			color: $marketplace-red;
+		}
+
+		@include a;
+
+		button.btn.btn-primary.pull-right {
+			@include button-red;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+.remember-password {
+	@include modal-box;
+	min-width: 320px;
+
+	.modal-header {
+		@include modal-header()
+	}
+
+	.modal-body {
+		@include modal-body();
+	}
+
+	.modal-footer {
+		border: none;
+		button.btn.btn-primary {
+			@include button-red;
+			margin-bottom: 40px;
+		}
+
+		@include a;
+	}
+}
+
+.footer-main {
+	ul.lang_options li a{
+		color: white
+	}
+}

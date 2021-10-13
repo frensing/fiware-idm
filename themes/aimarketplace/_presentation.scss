@@ -1,0 +1,35 @@
+.presentation {
+	section.media {
+		@include modal-box;
+		background-color: white;
+		height: auto;
+
+		h3 {
+			@include headline;
+		}
+	
+		span {
+			margin: 20px;
+			@include copy;
+		}
+	
+		p {
+			display: none;
+		}
+	
+		a.btn.btn-default {
+			@include button-red;			
+		}
+	
+		a.btn.btn-default.sign_up {
+			@include button-white;
+		}
+	
+		footer {
+			margin-top: 70px;
+			margin-bottom: 40px;
+			display: flex;  
+			flex-direction: column-reverse;
+		}
+	}
+}

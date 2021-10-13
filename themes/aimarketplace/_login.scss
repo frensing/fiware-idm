@@ -1,0 +1,48 @@
+.login {
+	@include modal-box;
+
+	.modal-header {
+		@include modal-header;
+	}
+
+	.modal-body {
+		@include modal-body;
+	}
+
+	.modal-footer {
+		border: none;
+		display: flex;
+		flex-direction: column;
+		height: 200px;
+		margin-top: 0px;
+
+		button.btn.btn-primary.pull-right {
+			@include button-red;
+		}
+
+		div.checkbox {
+			display: block;
+			margin-right: auto;
+
+			label {
+				color: $marketplace-grey;
+			}
+		}
+
+		div.actions {
+			height: 100px;
+			margin-top: auto;
+			
+			@include a;
+
+			:nth-child(1) {
+				@include button-white;
+				margin-top: 10px;
+				margin-bottom: 30px;
+				float: none;
+				padding: 6px;
+				text-align: center;
+			}
+		}
+	}
+}

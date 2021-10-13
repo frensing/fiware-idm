@@ -1,0 +1,41 @@
+header.navbar.navbar-fixed-top {   
+    height: 200px;
+    position: relative;
+
+    background-color: transparent;
+    border: none;
+    color: $marketplace-white;
+    font-family: "crosstenlight";
+    box-shadow: none;
+
+    .navbar-header {
+        margin-top: 0px;
+    }
+
+    .logo-header {
+        background-clip: border-box;
+        background-image: url(../img/Hexagon.svg);
+        background-repeat: no-repeat;
+        background-size: 2000px 1000px;
+        background-position: -750px -600px;
+        padding-top: 40px;
+
+        padding-left: 1000px;
+        margin-left: -1000px;
+        padding-right: 100px;
+        margin-right: -100px;
+        padding-bottom: 500px;
+        margin-bottom: -500px;
+
+        .brand {
+            background-image: url(../img/AI_Marketplace_Logo_en.png);
+            background-size: 135px auto;
+            width: 150px;
+            height: 100px;
+        }
+
+        .brand-text {
+            display: none;
+        }
+    }
+}

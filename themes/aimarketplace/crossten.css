@@ -1,0 +1,239 @@
+/************** Crossten Font */
+
+
+
+@font-face {
+    font-family: 'crosstenblack_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_black_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_black_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenblack';
+    src: url('../fonts/crossten/horizon_type_-_crossten_black-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenbold_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_bold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_bold_italic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenbold';
+    src: url('../fonts/crossten/horizon_type_-_crossten_bold-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenbook_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_book_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_book_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenbook';
+    src: url('../fonts/crossten/horizon_type_-_crossten_book-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenextrabold_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_extrabold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_extrabold_italic-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenextrabold';
+    src: url('../fonts/crossten/horizon_type_-_crossten_extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_extrabold-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenextralight_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_extralight_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_extralight_italic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenextralight';
+    src: url('../fonts/crossten/horizon_type_-_crossten_extralight-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_extralight-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenlight_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_light_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_light_italic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenlight';
+    src: url('../fonts/crossten/horizon_type_-_crossten_light-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'crosstenmedium_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_medium_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_medium_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenmedium';
+    src: url('../fonts/crossten/horizon_type_-_crossten_medium-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstensemibold_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_semibold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_semibold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstensemibold';
+    src: url('../fonts/crossten/horizon_type_-_crossten_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenthin_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_thin_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_thin_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenthin';
+    src: url('../fonts/crossten/horizon_type_-_crossten_thin-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenultra_italic';
+    src: url('../fonts/crossten/horizon_type_-_crossten_ultra_italic-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_ultra_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crosstenultra';
+    src: url('../fonts/crossten/horizon_type_-_crossten_ultra-webfont.woff2') format('woff2'),
+         url('../fonts/crossten/horizon_type_-_crossten_ultra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

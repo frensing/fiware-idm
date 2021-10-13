@@ -1,0 +1,24 @@
+/****************************** Default colors */
+@import '../default/colors';
+
+
+/****************************** Font */
+@import 'crossten';
+
+
+/****************************** Default styles */
+@import '../default/styles_call';
+
+/****************************** Custom colors */
+@import 'colors';
+
+/****************************** Custom mixins */
+@import 'mixin';
+
+/****************************** Custom styles */
+@import 'styles';
+@import 'header';
+@import 'login';
+@import 'presentation';
+@import 'registration';
+@import 'footer';

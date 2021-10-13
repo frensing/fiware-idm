@@ -1,0 +1,101 @@
+@mixin button-red {
+	border: solid;
+	border-color: $marketplace-red;
+	border-radius: 25px;
+	border-width: 1px;
+	background-color: $marketplace-red;
+	color: white;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	width: 180px;
+
+    &:hover {
+        box-shadow: 0px 2px 5px $marketplace-grey-40;
+    }
+
+    &:active {
+        box-shadow: inset 0px 1px 3px 0px $marketplace-grey-40;
+    }
+}
+
+@mixin button-white {
+	@include button-red;
+	background-color: white;
+	color: $marketplace-red;
+}
+
+@mixin input {
+	border-width: 0px;
+	border-radius: 2px;
+}
+
+@mixin a {
+	a {
+		padding-left: 5px;
+		padding-right: 5px;
+
+		&:hover {
+			color: $marketplace-red;
+		}
+	}
+}
+
+@mixin modal-box {
+	border-radius: 5px;
+	padding: 4rem 3.5rem 4rem 3.5rem;
+}
+
+@mixin modal-header {
+	border-width: 0px;
+	color: $marketplace-grey;
+	
+	h3 {
+		@include headline;
+	}
+}
+
+@mixin modal-body {
+	input.form-control {
+		@include input;
+	}
+
+	span.form-control-feedback.fa.fa-eye {
+		display: none;
+	}
+
+	span.help-block {
+		padding: 0px;
+		background-color: white;
+		border-width: 0px;
+		color: $marketplace-red;
+	}
+
+	label.control-label {
+		font-family: "crosstenbold";
+		color: $marketplace-grey;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+}
+
+@mixin headline {
+	border: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: $marketplace-red;
+	color: $marketplace-grey;
+	font-family: "crosstenbook";
+	font-size: 3rem;
+	margin-left: auto;
+	margin-right: auto; 
+	padding-bottom: 1rem;
+	width: max-content;
+}
+
+@mixin copy {
+    color: $marketplace-grey;
+    font-family: "crosstenthin";
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
