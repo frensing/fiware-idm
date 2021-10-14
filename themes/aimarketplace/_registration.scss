@@ -20,8 +20,12 @@
 		height: auto;
 		margin-top: 0px;
 
-		label.conditions a {
-			color: $marketplace-red;
+		label.conditions {
+			margin-left: 0px;
+			
+			a {
+				color: $marketplace-red;
+			}
 		}
 
 		@include a;

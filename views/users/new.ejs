@@ -40,16 +40,6 @@
 				<% if (nameErrors.indexOf("email") != -1) { %>
 			        <span class="help-block alert alert-danger "><%=translation.users.new_user.required_field%></span>
 			    <% } %>
-				<div class="form-group ">
-					<div id="gravatar-checkbox">
-						<div class="checkbox">
-							<label>
-								<input id="id_use_gravatar" name="use_gravatar" type="checkbox" />
-								<span><%=translation.users.new_user.content01%></span>
-							</label>
-						</div>
-					</div>
-				</div>
 				<div class="form-group has-feedback">
 					<label class="control-label" for="id_password1">
 						<%=translation.users.new_user.label03%>
@@ -73,35 +63,14 @@
 				<% if (nameErrors.indexOf("password2") != -1) { %>
 			        <span class="help-block alert alert-danger "><%=translation.users.new_user.required_field%></span>
 			    <% } %>
-				<div class="form-group ">
-					<label class="control-label" for="id_captcha"><%=translation.users.new_user.label05%></label>
-					<!-- <div class="g-recaptcha" data-size="normal" data-sitekey="6LcgXvwSAAAAAES48096Gr2KKc6cjWlVWtIcDZvz"></div>
-					<noscript>
-						<div style="width: 302px; height: 352px;">
-							<div style="width: 302px; height: 352px; position: relative;">
-								<div style="width: 302px; height: 352px; position: absolute;">
-									<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcgXvwSAAAAAES48096Gr2KKc6cjWlVWtIcDZvz"
-										frameborder="0" scrolling="no"
-										style="width: 302px; height:352px; border-style: none;">
-									</iframe>
-								</div>
-								<div style="width: 250px; height: 80px; position: absolute; border-style: none;
-									bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
-									<textarea id="g-recaptcha-response" name="g-recaptcha-response"
-										class="g-recaptcha-response"
-										style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
-										margin: 0px; padding: 0px; resize: none;" value="">
-									</textarea>
-								</div>
-							</div>
-						</div>
-					</noscript> -->
-				</div>
 				<script src="https://www.google.com/recaptcha/api.js?hl=en-GB" async defer></script>
 			</div>
 			<div class="modal-footer">
 				<label class="conditions checkbox-inline">
-					<input type="checkbox" id="inlineCheckbox1" required="required" title="You need to accept the Terms and Conditions to create your account" value="option1"> I accept FIWARE Lab <a href="http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/FIWARE_LAB_Terms_and_Conditions" target="a_blank">Terms and Conditions</a>
+					<input type="checkbox" id="inlineCheckbox1" required="required" title="You need to accept the Terms and Conditions to create your account" value="option1"> <%=translation.users.new_user.label06%> <a href="https://plattform.ki-marktplatz.com/Plattform/TermsAndConditions" target="a_blank"><%=translation.users.new_user.label07%></a>
+				</label>
+				<label class="conditions checkbox-inline">
+					<input type="checkbox" id="inlineCheckbox2" required="required" title="You need to accept the Privacy Policy to create your account" value="option1"> <%=translation.users.new_user.label08%> <a href="https://plattform.ki-marktplatz.com/Plattform/Information/Datenschutz" target="a_blank"><%=translation.users.new_user.label09%></a>
 				</label>
 				<button type="submit" class="btn btn-primary pull-right"><%=translation.users.new_user.signup_btn%></button>
 				<div class="actions">
