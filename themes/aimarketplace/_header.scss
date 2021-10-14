@@ -8,13 +8,15 @@ header.navbar.navbar-fixed-top {
     font-family: "crosstenlight";
     box-shadow: none;
 
+    z-index: 0;
+
     .navbar-header {
         margin-top: 0px;
     }
 
     .logo-header {
         background-clip: border-box;
-        background-image: url(../img/Hexagon.svg);
+        background-image: url(/img/Hexagon.svg);
         background-repeat: no-repeat;
         background-size: 2000px 1000px;
         background-position: -750px -600px;
