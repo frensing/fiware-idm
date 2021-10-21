@@ -10,33 +10,41 @@ header.navbar.navbar-fixed-top {
 
     z-index: 0;
 
-    .navbar-header {
-        margin-top: 0px;
-    }
+    .container-fluid {
+        max-width: 100%;
+        padding-left: 0px;
 
-    .logo-header {
-        background-clip: border-box;
-        background-image: url(/img/Hexagon.svg);
-        background-repeat: no-repeat;
-        background-size: 2000px 1000px;
-        background-position: -750px -600px;
-        padding-top: 40px;
-
-        padding-left: 1000px;
-        margin-left: -1000px;
-        padding-right: 100px;
-        margin-right: -100px;
-        padding-bottom: 500px;
-        margin-bottom: -500px;
-
-        .brand {
-            background-size: 135px auto;
-            width: 150px;
-            height: 100px;
+        .navbar-header {
+            margin-top: 0px;
+            
+            .logo-header {
+                background-clip: border-box;
+                background-image: url(/img/Hexagon.svg);
+                background-repeat: no-repeat;
+                background-size: 2000px auto;
+                background-position: -1650px -620px;
+                padding-top: 40px;
+        
+                padding-right: 140px;
+                margin-right: -140px;
+                padding-bottom: 200px;
+                margin-bottom: -200px;
+        
+                .brand {
+                    background-size: auto 110px;
+                    width: 200px;
+                    height: 110px;
+                    margin-left: 20px;
+                }
+        
+                .brand-text {
+                    display: none;
+                }
+            }
         }
-
-        .brand-text {
-            display: none;
+    
+        #profile_editor_switcher .dropdown-toggle {
+            color: $marketplace-white;
         }
     }
 }

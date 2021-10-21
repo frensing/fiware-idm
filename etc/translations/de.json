@@ -181,7 +181,7 @@
       },
       "presentation": {
         "title": "Identity Manager",
-        "subtitle01": "Willkommen bei einer von DIT-UPM entwickelten Implementierung von FIWARE Identity Manager.",
+        "subtitle01": "Willkommen bei einer von DIT-UPM entwickelten Anwendung des KI-Marktplatz Identity Managers.",
         "subtitle02": "Sie können diese Anmeldeseite sowie jeden anderen Stil/Layout in diesem Webservice anpassen. Sehen Sie sich die Dokumentation zur Anpassung an, um zu erfahren, wie das geht!",
         "signup_btn": "Registrieren",
         "docs_btn": "Dokumentation"
@@ -444,6 +444,7 @@
         "label07": "Nutzungsbedingungen und AGBs",
         "label08": "Ich akzeptiere die KI-Marktplatz",
         "label09": "Datenschutzerklärung",
+        "label10": "Mir ist bewusst, dass es sich bei der Plattform um eine Beta-Version handelt. <br> Diese kann fehlerhafte Funktionen enthalten. Der Upload von sensitiven <br> Daten ist zum gegenwärtigen Zeitpunkt nicht empfohlen.",
         "signup_btn": "Registrieren",
         "link01": "Passwort vergessen",
         "link02": "Keine Bestätigung erhalten?"

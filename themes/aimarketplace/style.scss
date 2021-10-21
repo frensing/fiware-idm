@@ -1,16 +1,14 @@
 /****************************** Default colors */
 @import '../default/colors';
 
+/****************************** Custom colors */
+@import 'colors';
 
 /****************************** Font */
 @import 'crossten';
 
-
 /****************************** Default styles */
 @import '../default/styles_call';
-
-/****************************** Custom colors */
-@import 'colors';
 
 /****************************** Custom mixins */
 @import 'mixin';
@@ -22,3 +20,4 @@
 @import 'presentation';
 @import 'registration';
 @import 'footer';
+@import 'oauth';
