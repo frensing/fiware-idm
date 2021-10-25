@@ -181,7 +181,8 @@
     },
     "presentation": {
       "title": "Identity Manager",
-      "subtitle01": "Welcome to an AI Marketplace Identity Manager application developed by DIT-UPM.",
+      "subtitle01": "Welcome to an implementation of FIWARE Identity Manager developed by DIT-UPM.",
+      "subtitle01aimarketplace": "Welcome to an AI Marketplace Identity Manager application developed by DIT-UPM.",
       "subtitle02": "You can customize this sign in page as well as any other style/layout in this web service. Check customization documentation to learn how to do it!",
       "signup_btn": "Sign up",
       "docs_btn": "Check documentation"
@@ -440,11 +441,11 @@
       "label03": "Password",
       "label04": "Password (again)",
       "label05": "Captcha",
-      "label06": "I accept AI-Marketplace",
-      "label07": "Terms and Conditions",
-      "label08": "I accept AI-Marketplace",
-      "label09": "Privacy Policy",
-      "label10": "This beta version is in the testing phase and is not suitable <br> for exchanging confidential information.",
+      "label06aimarketplace": "I accept AI-Marketplace",
+      "label07aimarketplace": "Terms and Conditions",
+      "label08aimarketplace": "I accept AI-Marketplace",
+      "label09aimarketplace": "Privacy Policy",
+      "label10aimarketplace": "This beta version is in the testing phase and is not suitable <br> for exchanging confidential information.",
       "signup_btn": "Sign Up",
       "link01": "Forgot password",
       "link02": "Confirmation not recieved?"
