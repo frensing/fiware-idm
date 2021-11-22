@@ -1,0 +1,14 @@
+{
+  "templates": {
+    "email": {
+      "base_email": {
+      },
+      "activate": {
+        "subject": "Welcome to the AI-Marketplace",
+        "content01": "Hello",
+        "content02": "Welcome to the AI-Marketplace platform! We are happy to welcome you to our platform. To confirm your registration, please click on the following link:",
+        "content03": "Finish registration"
+      }
+    }
+  }
+}
