@@ -1,13 +1,14 @@
 {
   "templates": {
     "email": {
-      "base_email": {
-      },
       "activate": {
         "subject": "Willkommen auf dem KI-Marktplatz",
         "content01": "Hallo",
-        "content02": "Willkommen auf der KI-Marktplatz-Plattform! Schön, dass wir Sie auf unserer Plattform begrüßen dürfen. Um Ihre Registrierung zu bestätigen, klicken Sie bitte auf den folgenden Link:",
-        "content03": "Registrierung abschließen"
+        "content02": "Willkommen auf der KI-Marktplatz-Plattform!",
+        "content03": "Schön, dass wir Sie auf unserer Plattform begrüßen dürfen.",
+        "content04": "Um Ihre Registrierung zu bestätigen, klicken Sie bitte auf den folgenden Link:",
+        "link": "Registrierung abschließen",
+        "content05": "Mit freundlichen Grüßen <br> Ihr KI-Marktplatz Team"
       }
     }
   }
