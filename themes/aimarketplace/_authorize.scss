@@ -1,0 +1,38 @@
+#authorize_application_modal {
+    @include modal-box;
+
+    .modal-header {
+		@include modal-header();
+
+        h3 {
+            font-size: 3rem !important;
+        }
+	}
+
+	.modal-body {
+		@include modal-body();
+
+        p {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+	}
+
+    .modal-footer {
+		border: none;
+        display: flex;
+        flex-direction: column-reverse;
+
+
+		button.btn.btn-primary {
+			@include button-red;
+		}
+
+		@include a;
+
+        a.cancel {
+            @include button-white;
+            margin-bottom: 40px;
+        }
+	}
+}
