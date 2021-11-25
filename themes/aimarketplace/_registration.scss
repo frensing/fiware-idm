@@ -39,7 +39,7 @@
 
 .remember-password {
 	@include modal-box;
-	min-width: 320px;
+	min-width: 400px;
 
 	.modal-header {
 		@include modal-header()
@@ -54,6 +54,40 @@
 		button.btn.btn-primary {
 			@include button-red;
 			margin-bottom: 40px;
+		}
+
+		@include a;
+	}
+}
+
+.resend-confirmation-instructions {
+	@include modal-box;
+	min-width: 400px;
+
+	.modal-header {
+		@include modal-header();
+
+		h3 {
+			display: inline;
+			line-break: auto;
+			border-width: 0px;
+		}
+
+		border-bottom-width: 1px;
+		border-bottom-color: $marketplace-red; 
+	}
+
+	.modal-body {
+		@include modal-body();
+	}
+
+	.modal-footer {
+		border: none;
+
+		button.btn.btn-primary {
+			@include button-red;
+			margin-bottom: 40px;
+			width: auto;
 		}
 
 		@include a;
