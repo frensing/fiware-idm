@@ -1,4 +1,25 @@
 {
+  "auth": {
+    "presentation": {
+      "subtitle01aimarketplace": "Willkommen bei einer von DIT-UPM entwickelten Anwendung des KI-Marktplatz Identity Managers."
+    }
+  },
+  "oauth": {
+    "login": {
+      "title": "Log In",
+      "loginin_btn": "Log In",
+      "link01": "Register"
+    }
+  },
+  "users": {
+    "new_user": {
+      "label06aimarketplace": "Ich akzeptiere die KI-Marktplatz",
+      "label07aimarketplace": "Nutzungsbedingungen und AGBs",
+      "label08aimarketplace": "Ich akzeptiere die KI-Marktplatz",
+      "label09aimarketplace": "Datenschutzerklärung",
+      "label10aimarketplace": "Diese Beta-Version befindet sich in der Testphase und eignet sich nicht <br> zum Austausch vertraulicher Informationen."
+    }
+  },
   "templates": {
     "email": {
       "activate": {

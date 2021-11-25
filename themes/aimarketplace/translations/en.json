@@ -1,4 +1,41 @@
 {
+  "auth": {
+    "login": {
+      "title": "Log In",
+      "loginin_btn": "Log In",
+      "link01": "Register"
+    },
+    "presentation": {
+      "signup_btn": "Register",
+      "subtitle01aimarketplace": "Welcome to an AI Marketplace Identity Manager application developed by DIT-UPM."
+    },
+    "pass_request": {
+      "link01": "Register"
+    },
+    "pass_reset": {
+      "link01": "Register"
+    },
+    "confirmation": {
+      "link01": "Register"
+    }
+  },
+  "oauth": {
+    "login": {
+      "title": "Log In",
+      "loginin_btn": "Log In",
+      "link01": "Register"
+    }
+  },
+  "users": {
+    "new_user": {
+      "signup_btn": "Register",
+      "label06aimarketplace": "I accept AI-Marketplace",
+      "label07aimarketplace": "Terms and Conditions",
+      "label08aimarketplace": "I accept AI-Marketplace",
+      "label09aimarketplace": "Privacy Policy",
+      "label10aimarketplace": "This beta version is in the testing phase and is not suitable <br> for exchanging confidential information."
+    }
+  },
   "templates": {
     "email": {
       "activate": {
