@@ -15,7 +15,7 @@
             <p>
               <%=translation.oauth.authorize.content01%> <a href="/idm/applications/<%= application.id %>/">
                   <%= application.name %>
-                </a> AHAHAHAA bbbbb:
+                </a> <%=translation.oauth.authorize.content02%>
             </p>
             <div class="select-multiple">
               <select name="user_authorized_application[shared_attributes]" class="selectpicker"
@@ -28,9 +28,6 @@
                 <option value="eidas_profile" selected>eIDAS Profile</option>
               </select>
             </div>
-            <!-- <div class="alert alert-info">
-                    <%=translation.oauth.authorize.content03%>
-              </div> -->
           </div>
           <fieldset>
           </fieldset>
@@ -39,11 +36,16 @@
           <a href="/" class="secondary cancel btn btn-default">
             <%=translation.oauth.authorize.deny_btn%>
           </a>
-          <button type="submit" class="btn btn-primary">
+          <button id="authorize-submit-btn" type="submit" class="btn btn-primary">
             <%=translation.oauth.authorize.authorize_btn%>
           </button>
         </div>
       </form>
     </div>
   </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#authorize-submit-btn').click();
+    })
+  </script>
 </div>
