@@ -1,4 +1,9 @@
 <div id="authorize_application_modal" class="static_page">
+  <style>
+    body {
+      display: none;
+    }
+  </style>
   <div class="">
     <div class="">
       <div class="modal-header">
@@ -44,8 +49,8 @@
     </div>
   </div>
   <script type="text/javascript">
-    $(document).ready(function() {
-      $('#authorize-submit-btn').click();
-    })
+    window.onload = function() {
+      document.getElementById('authorize-submit-btn').click()
+    }
   </script>
 </div>
