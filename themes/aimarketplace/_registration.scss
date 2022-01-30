@@ -39,7 +39,7 @@
 
 .remember-password {
 	@include modal-box;
-	min-width: 400px;
+	min-width: 500px;
 
 	.modal-header {
 		@include modal-header()

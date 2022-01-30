@@ -7,3 +7,12 @@ footer.footer-main .cred{
         color: $marketplace-white;
     }
 }
+
+.messages {
+    .alert {
+        p {
+            padding: 40px;
+            font-size: 1.3rem;
+        }
+    }
+}
