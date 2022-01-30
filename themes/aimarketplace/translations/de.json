@@ -2,6 +2,9 @@
   "auth": {
     "presentation": {
       "subtitle01aimarketplace": "Willkommen bei einer von DIT-UPM entwickelten Anwendung des KI-Marktplatz Identity Managers."
+    }, 
+    "pass_request": {
+      "content": "Geben Sie die E-Mail-Adresse an, die Sie mit Ihrem Konto verknüpft haben. Sie erhalten dann in wenigen Minuten eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts.",
     }
   },
   "oauth": {
