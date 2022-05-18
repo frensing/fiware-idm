@@ -1,8 +1,8 @@
 ARG NODE_VERSION=14
-ARG GITHUB_ACCOUNT=ging
+ARG GITHUB_ACCOUNT=frensing
 ARG GITHUB_REPOSITORY=fiware-idm
 ARG DOWNLOAD=latest
-ARG SOURCE_BRANCH=master
+ARG SOURCE_BRANCH=aimarketplace-theme
 ARG HEADLESS=false
 
 # Default Builder, distro and distroless build version

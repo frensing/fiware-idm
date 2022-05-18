@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   keyrock:
-    image: fiware/idm:7.8.1
+    image: fiware/idm:kim-dev-rc7 #idm-fiware-image #fiware-idm:latest # idm-fiware-image # fiware/idm:kim-dev-rc4
     container_name: fiware-keyrock
     hostname: keyrock
     networks:
@@ -10,16 +10,16 @@ services:
     depends_on:
       - mysql-db
     ports:
-      - "3000:3000"
-      - "443:443"
+      - '3000:3000'
+      - '443:443'
     environment:
       - DEBUG=idm:*
       - IDM_DB_HOST=mysql-db
       - IDM_HOST=http://localhost:3000
       - IDM_PORT=3000
-      # Development use only 
+      # Development use only
       # Use Docker Secrets for Sensitive Data
-      - IDM_DB_PASS=secret 
+      - IDM_DB_PASS=secret
       - IDM_DB_USER=root
       - IDM_ADMIN_USER=admin
       - IDM_ADMIN_EMAIL=admin@test.com
@@ -27,24 +27,29 @@ services:
       # If sending eMails point to any STMP server
       - IDM_EMAIL_HOST=mailer
       - IDM_EMAIL_PORT=25
+    volumes:
+      - /home/fabian/dev/fraunhofer/fiware-idm-frensing/package.json:/opt/fiware-idm/package.json
+      - /home/fabian/dev/fraunhofer/fiware-idm-frensing/config.js:/opt/fiware-idm/config.js
+      - /home/fabian/dev/fraunhofer/fiware-idm-frensing/public:/opt/fiware-idm/public
+      - /home/fabian/dev/fraunhofer/fiware-idm-frensing/themes/aimarketplace:/opt/fiware-idm/themes/aimarketplace
 
   mysql-db:
-    restart: always
+    # restart: always
     image: mysql:5.7
     hostname: mysql-db
     container_name: db-mysql
     expose:
-      - "3306"
+      - '3306'
     ports:
-      - "3306:3306"
+      - '3306:3306'
     networks:
       default:
         ipv4_address: 172.18.1.6
     environment:
-      # Development use only 
+      # Development use only
       # Use Docker Secrets for Sensitive Data
-      - "MYSQL_ROOT_PASSWORD=secret"
-      - "MYSQL_ROOT_HOST=172.18.1.5"
+      - 'MYSQL_ROOT_PASSWORD=secret'
+      - 'MYSQL_ROOT_HOST=172.18.1.5'
     volumes:
       - mysql-db:/var/lib/mysql
 
@@ -59,12 +64,12 @@ services:
   # TLS/SSL required: Yes
 
   mailer:
-    restart: always
+    # restart: always
     image: mazdermind/docker-mail-relay
     hostname: mailer
     container_name: mailer
     ports:
-      - "25:25"
+      - '25:25'
     environment:
       - SMTP_LOGIN=<login> # Login to connect to the external relay
       - SMTP_PASSWORD=<password> # Password to connect to the external relay
@@ -72,7 +77,6 @@ services:
       - EXT_RELAY_PORT=25
       - ACCEPTED_NETWORKS=172.18.1.0/24
       - USE_TLS=no
-
 
 networks:
   default:
