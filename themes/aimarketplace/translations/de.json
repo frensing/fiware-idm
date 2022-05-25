@@ -15,7 +15,9 @@
     }
   },
   "cookies_eu_banner": {
-    "banner_text": "Wenn Sie diese Website weiter besuchen, akzeptieren Sie die Verwendung von Cookies durch Google Analytics zu statistischen Zwecken."
+    "banner_text": "Wenn Sie diese Website weiter besuchen, akzeptieren Sie die Verwendung von Cookies durch Google Analytics zu statistischen Zwecken.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen"
   },
   "users": {
     "new_user": {

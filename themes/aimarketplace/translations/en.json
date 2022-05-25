@@ -27,7 +27,9 @@
     }
   },
   "cookies_eu_banner": {
-    "banner_text": "By continuing to visit this site, you accept the use of cookies by Google Analytics for statistical purposes."
+    "banner_text": "By continuing to visit this site, you accept the use of cookies by Google Analytics for statistical purposes.",
+    "accept": "Accept",
+    "reject": "Reject"
   },
   "users": {
     "new_user": {
