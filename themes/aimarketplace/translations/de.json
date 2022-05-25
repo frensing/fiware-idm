@@ -14,6 +14,9 @@
       "link01": "Register"
     }
   },
+  "cookies_eu_banner": {
+    "banner_text": "Wenn Sie diese Website weiter besuchen, akzeptieren Sie die Verwendung von Cookies durch Google Analytics zu statistischen Zwecken."
+  },
   "users": {
     "new_user": {
       "label06aimarketplace": "Ich akzeptiere die KI-Marktplatz",

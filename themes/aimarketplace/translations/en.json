@@ -26,6 +26,9 @@
       "link01": "Register"
     }
   },
+  "cookies_eu_banner": {
+    "banner_text": "By continuing to visit this site, you accept the use of cookies by Google Analytics for statistical purposes."
+  },
   "users": {
     "new_user": {
       "signup_btn": "Register",

@@ -1,23 +1,9 @@
-<!--<div id="cookies-eu-banner" style="display: none;">
-  By continuing to visit this site, you accept the use of cookies by Google Analytics for statistical purposes.
-  <a href="./read-more.html" id="cookies-eu-more">Read more</a>
+<div id="cookies-eu-banner" style="display: none;">
+  <%= translation.cookies_eu_banner.banner_text %>
+  <!-- <a href="./read-more.html" id="cookies-eu-more">Read more</a> -->
   <button id="cookies-eu-reject">Reject</button>
   <button id="cookies-eu-accept">Accept</button>
 </div>
-
- <script src="/cookies-eu-banner/dist/cookies-eu-banner.min.js"></script>
-<script>
-    new CookiesEuBanner(function () {
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-          'gtm.start':
-            new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-181950456');
-    });
-</script>  -->
 
 <header class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -80,3 +66,17 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </header>
+
+<script src="/javascripts/cookies-eu-banner.min.js"></script>
+<script>
+    new CookiesEuBanner(function () {
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-181950456');
+    }, true);
+</script> 
