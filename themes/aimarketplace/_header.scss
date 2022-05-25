@@ -1,7 +1,34 @@
 #cookies-eu-banner {
-    background-color: $marketplace-white;
+    background-color: $marketplace-red;
+    color: $marketplace-white;
     padding: 40px;
     font-size: 1.4rem;
+
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    left: 20%;
+    right: 20%;
+    z-index: 100;
+    border-radius: 25px;
+
+    a:hover {
+        color: $marketplace-white;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .cookie-btn {
+            @include button-white;
+            display: inline;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
 }
 
 header.navbar.navbar-fixed-top {   
